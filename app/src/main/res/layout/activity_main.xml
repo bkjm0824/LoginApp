@@ -22,17 +22,17 @@
             android:src="@drawable/icon_account_circle"/>
 
         <EditText
+            android:id="@+id/email_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="Username"
+            android:background="@drawable/rounded_corner"
+            android:hint="email"
+            android:inputType="text"
+            android:padding="18dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/rounded_corner"
-            android:padding="18dp"
-            android:inputType="text"
-            android:id="@+id/username_input"/>
+            android:textSize="20sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -48,15 +48,15 @@
             android:id="@+id/password_input"/>
 
         <Button
+            android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
-            android:backgroundTint="@color/white"
-            android:textColor="#3B84F1"
-            android:padding="18dp"
             android:layout_marginTop="32dp"
-            android:textSize="20sp"
-            android:id="@+id/login_btn"/>
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:text="Login"
+            android:textColor="#3B84F1"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"

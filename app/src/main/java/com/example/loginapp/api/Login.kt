@@ -1,7 +1,7 @@
 package com.example.loginapp.api
 
 data class Login(
-    val `data`: Data,
+    val result: Boolean,
     val message: String,
-    val result: Boolean
+    val data: Data
 )
